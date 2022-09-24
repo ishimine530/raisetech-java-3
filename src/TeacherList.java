@@ -45,9 +45,9 @@ public class TeacherList {
         boolean suzukiExists = teacherList.stream().anyMatch(t -> t.getTeacherName().equals("鈴木"));
         
         if (suzukiExists) {
-            System.out.println("A1.鈴木さんはTeacherListに存在します。");
+            System.out.println("A2.鈴木さんはTeacherListに存在します。");
         } else {
-            System.out.println("A1.鈴木さんはTeacherListに存在しません。");
+            System.out.println("A2.鈴木さんはTeacherListに存在しません。");
         }
         
         System.out.println("------------------------------------------------");
